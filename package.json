@@ -1,6 +1,6 @@
 {
   "name": "dartajax-music",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Tool for discovering things about the San Francisco music legend DartAjax ",
   "exports": {
     "./random-song": "./src/random-song.js"
