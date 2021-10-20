@@ -25,5 +25,10 @@
   },
   "engines": {
     "node": ">= 14"
-  }
+  },
+  "files": [
+    "bin/",
+    "data/",
+    "src/"
+  ]
 }
