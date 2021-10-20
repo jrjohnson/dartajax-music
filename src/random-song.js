@@ -1,8 +1,6 @@
-import fs from 'node:fs/promises';
-
 export default async function randomSong() {
-    const albums = JSON.parse(await fs.readFile('data/albums.json'));
-    const songs = albums.reduce((acc, cur) => {
+    const albums = await import('../data/albums.js');
+    const songs = albums.default.reduce((acc, cur) => {
         return [...acc, ...cur.songs];
     }, []);
 
