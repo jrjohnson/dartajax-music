@@ -1,0 +1,29 @@
+{
+  "name": "dartajax-music",
+  "version": "1.0.0",
+  "description": "Tool for discovering things about the San Francisco music legend DartAjax ",
+  "exports": {
+    "./random-song": "./src/random-song.js"
+  },
+  "type": "module",
+  "bin": {
+    "dartajax-music": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrjohnson/dartajax-music.git"
+  },
+  "keywords": [],
+  "author": "Jon Johnson <jon.johnson@ucsf.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrjohnson/dartajax-music/issues"
+  },
+  "homepage": "https://github.com/jrjohnson/dartajax-music#readme",
+  "dependencies": {
+    "meow": "^10.1.1"
+  },
+  "engines": {
+    "node": ">= 14"
+  }
+}
